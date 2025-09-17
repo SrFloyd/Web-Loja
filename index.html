@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SB'Stilo - Moda & Estilo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="SB'Stilo - Loja de roupas moderna. Compre pelo WhatsApp.">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="brand">SB'<span>Stilo</span></a>
+            <nav class="nav">
+                <a href="#novidades">Novidades</a>
+                <a href="#feminino">Feminino</a>
+                <a href="#masculino">Masculino</a>
+                <a href="#acessorios">Acessórios</a>
+            </nav>
+            <button id="open-cart" class="icon-button" aria-label="Abrir carrinho" title="Carrinho">
+                <span class="cart-count" id="cart-count">0</span>
+                🛍️
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-inner">
+            <h1>Seu estilo, sua assinatura.</h1>
+            <p>Peças selecionadas com qualidade e conforto. Receba seu pedido pelo WhatsApp.</p>
+            <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+    <main class="container" id="catalogo">
+        <h2>Catálogo</h2>
+        <div id="product-grid" class="grid"></div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <div class="brand small">SB'<span>Stilo</span></div>
+                <p>Moda para todas as ocasiões. Atendimento rápido pelo WhatsApp.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://wa.me/" target="_blank" rel="noopener">Fale conosco</a>
+                <a href="#">Política de Troca</a>
+                <a href="#">Frete e Prazo</a>
+            </div>
+        </div>
+        <div class="container copyright">© <span id="year"></span> SB'Stilo. Todos os direitos reservados.</div>
+    </footer>
+
+    <aside id="cart-drawer" class="cart-drawer" aria-hidden="true">
+        <div class="cart-header">
+            <h3>Seu carrinho</h3>
+            <button id="close-cart" class="icon-button" aria-label="Fechar carrinho">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="totals">
+                <span>Total</span>
+                <strong id="cart-total">R$ 0,00</strong>
+            </div>
+            <button id="checkout" class="btn btn-primary">Finalizar no WhatsApp</button>
+        </div>
+    </aside>
+
+    <div id="backdrop" class="backdrop" hidden></div>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
