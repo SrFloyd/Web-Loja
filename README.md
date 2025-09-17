@@ -6,7 +6,7 @@ Este é um site moderno e simples para vender roupas. O cliente adiciona itens a
 
 1. Abra o arquivo `index.html` no navegador (duplo clique).
 2. Os produtos estão em `products.js` (array `PRODUCTS`).
-3. O WhatsApp já está configurado para `5588982179629`.
+3. O WhatsApp já está configurado para `xxxxxxxxxxxxx`.
 
 ## Alterar número do WhatsApp
 
