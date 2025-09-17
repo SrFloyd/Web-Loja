@@ -42,4 +42,4 @@ Você pode trocar as imagens por arquivos próprios (coloque na mesma pasta e ap
 
 ## Dúvidas / ajustes
 
-Precisa de páginas extras (sobre, políticas, contato), filtros por categoria, banners ou integração com Instagram? Me diga que eu adiciono aqui.
+Precisa de páginas extras (sobre, políticas, contato), filtros por categoria, banners ou integração com Instagram.
