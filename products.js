@@ -1,6 +1,6 @@
 // Configure aqui o seu número de WhatsApp com código do país (ex.: Brasil 55)
 // Exemplo: 55DDDNUMERO, como 5511999999999
-window.WHATSAPP_NUMBER = "5588982179629"; // <- número configurado
+window.WHATSAPP_NUMBER = "xxxxxxxxxxxxx"; // <- número configurado
 
 /** Lista de produtos (exemplo). Você pode editar, remover ou adicionar itens. */
 window.PRODUCTS = [
