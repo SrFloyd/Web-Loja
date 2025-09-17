@@ -13,7 +13,7 @@ Este é um site moderno e simples para vender roupas. O cliente adiciona itens a
 Edite `products.js` e ajuste:
 
 ```js
-window.WHATSAPP_NUMBER = "5588982179629";
+window.WHATSAPP_NUMBER = "xxxxxxxxxxxxx";
 ```
 
 Use DDI + DDD + número, apenas dígitos. Ex.: Brasil/CE → `5588...`.
